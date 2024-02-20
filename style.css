@@ -1,0 +1,146 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&family=Open+Sans:wght@500&display=swap');
+
+/* Navbar and Logo Styling */
+.my-logo {
+    height: 100px;
+}
+.web-body{
+    background-image: url(https://wallpapercave.com/wp/wp3186003.jpg);
+}
+
+.navbar {
+    background-color: transparent; /* Dark background for the navbar */
+    width: 100%; /* Full width */
+}
+
+.item-nav {
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    color: #fff; /* White color for navbar links */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.item-nav:hover {
+    color: #f00; /* Red color on hover */
+}
+
+.anchor {
+    margin-left: auto;
+}
+
+/* Left Box Styling */
+.box-left {
+    color: #fff; /* White color for text */
+    text-align: right;
+    font-family: 'Noto Serif', serif;
+    padding-left: 150px;
+}
+
+/* Profile Picture Styling */
+.profile-pic {
+    height: 40vh;
+}
+
+/* Main Content Styling */
+.para-1 {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+}
+
+.body-1 {
+    height: 80vh;
+}
+
+/* About Us Section Styling */
+.what-h1,
+.what-p {
+    color: #fff; /* White color for headings and text */
+}
+
+/* What We Do Section Styling */
+.course-h1 {
+    color: #fff; /* White color for headings */
+}
+
+.card {
+    border: 2px solid white;
+    padding: 50px;
+    text-align: center;
+    background-color: transparent;
+    transition: border-color 0.3s; /* Add transition for a smooth effect */
+}
+
+.card:hover {
+    border-color: red; /* Set the border color when hovering */
+}
+
+.card-h1 {
+    font-size: 25px;
+    color: #fff; /* White color for headings */
+}
+
+/* Workshop Section Styling */
+.workshop {
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* Contact Section Styling */
+.contact {
+    color: #fff; /* White color for headings and text */
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contact strong {
+    color: #f00; /* Red color for strong tags */
+}
+
+.contact a {
+    color: #f00; /* Red color for links */
+    text-decoration: none;
+}
+
+/* Social Media Icons Styling */
+.social-icon {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px; /* Space between social icons */
+}
+
+/* Additional Styles for General Body */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+h1, h2, h3, p {
+    margin-bottom: 20px; /* Space between headings and paragraphs */
+}
+
+.container {
+    margin-top: 20px; /* Space between container and sections */
+}
+
+.row {
+    margin-bottom: 20px; /* Space between rows */
+}
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+  }
+#scrollToTopBtn:hover {
+    background-color: #f00;
+}
